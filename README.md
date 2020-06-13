@@ -1,0 +1,1 @@
+Stores Customer POJOs (Plain Old Java Objects) in a MongoDB database by using Spring Data MongoDB.
