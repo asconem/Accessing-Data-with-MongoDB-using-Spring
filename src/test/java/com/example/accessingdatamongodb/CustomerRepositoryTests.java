@@ -1,18 +1,14 @@
 package com.example.accessingdatamongodb;
 
-import static org.assertj.core.api.Assertions.*;
-
-import java.util.List;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Example;
 
-import com.example.accessingdatamongodb.Customer;
-import com.example.accessingdatamongodb.CustomerRepository;
+import java.util.List;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 public class CustomerRepositoryTests {
